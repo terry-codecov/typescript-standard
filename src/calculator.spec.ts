@@ -24,14 +24,14 @@ describe('Calulator: no starting value', () => {
     expect(calc.total).toEqual(13);
   })
 
-  it('can perform subtraction', () => {
-    calc.minus(1)
-    expect(calc.total).toEqual(-1);
-    calc.minus(2)
-    expect(calc.total).toEqual(-3);
-    calc.minus(3)
-    expect(calc.total).toEqual(-6);
-  })
+  // it('can perform subtraction', () => {
+  //   calc.minus(1)
+  //   expect(calc.total).toEqual(-1);
+  //   calc.minus(2)
+  //   expect(calc.total).toEqual(-3);
+  //   calc.minus(3)
+  //   expect(calc.total).toEqual(-6);
+  // })
 });
 
 describe('Calulator: starting value 99', () => {
