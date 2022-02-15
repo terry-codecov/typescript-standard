@@ -10,6 +10,11 @@ describe('Calulator: no starting value', () => {
     expect(calc.total).toEqual(0);
   })
 
+
+  it('calculator defaults to graphing mode', () => {
+    expect(calc.mode).toEqual("graphing");
+  })
+
   it('can perform addition', () => {
     calc.plus(3)
     expect(calc.total).toEqual(3);
