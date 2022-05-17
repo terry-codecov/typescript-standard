@@ -1,8 +1,15 @@
+function test(foo) {
+  if(foo === 'bar') return true
+  return false
+}
+
 export default class Calculator {
   private value = 0;
   private calcMode = ""
   constructor(scientificMode = false, value = 0) {
     this.value = value
+
+    test('biz')
 
     if(scientificMode) {
       this.calcMode = "science!"
