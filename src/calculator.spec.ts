@@ -16,9 +16,7 @@ describe('Calulator: no starting value', () => {
   })
 
   it('can perform addition', () => {
-    calc.plus(3)
-    expect(calc.total).toEqual(3);
-    calc.plus(7)
+   calc.plus(7)
     expect(calc.total).toEqual(10);
     calc.plus(3)
     expect(calc.total).toEqual(13);
